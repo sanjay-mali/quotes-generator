@@ -24,7 +24,7 @@ To use this application:
 
 If you wish to contribute or modify the project:
 
-1. Clone the repository: `git clone https://github.com/your-username/random-quotes-generator.git`
+1. Clone the repository: `git clone https://github.com/sanjay-mali/quotes-generator.git`
 2. Make necessary changes or improvements.
 3. Test your modifications locally.
 4. Create a pull request to propose your changes for review and merging.
@@ -34,11 +34,11 @@ If you wish to contribute or modify the project:
 - HTML
 - CSS
 - JavaScript
-- Utilizes an external API for fetching quotes (link to the API: https://random-meal-generators.netlify.app/)
+- Utilizes an external API for fetching quotes (link to the API: https://api-ninjas.com/api/quotes)
 
 ## Credits
 
-This project uses an API provided by [Random Meal Generators](https://random-meal-generators.netlify.app/).
+This project uses an API provided by [Random Quotes Generators](https://api-ninjas.com/api/quotes).
 
 ## License
 
