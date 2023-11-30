@@ -25,10 +25,10 @@ async function fetchQuote() {
 
 const getQuoteButton = document.querySelector('#generate');
 getQuoteButton.addEventListener('click', () => {
+    
     fetchQuote()
         .then(responseData => {
-            console.log('API Response:', responseData);
-
+           
             const quote = document.getElementById('quote-text');
             quote.textContent = ` " ${responseData[0].quote}" `;
 
@@ -46,8 +46,10 @@ getQuoteButton.addEventListener('click', () => {
 
 const tweet = document.getElementById('tweet');
 tweet.addEventListener('click', () => {
+    
     const quote = document.getElementById('quote-text');
     const author = document.getElementById('author');
     const tweetUrl = `https://twitter.com/intent/tweet?text=${quote.textContent} ${author.textContent}`;
     window.open(tweetUrl, '_blank');
+    
 })
