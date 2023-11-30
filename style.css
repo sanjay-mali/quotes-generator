@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+}
+.container{
+    min-height: 100vh;
+    background-color: #CDF5FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & h2{ margin-bottom: 1rem; font-size: 2rem; }
+    & .quote { text-align: center; }
+}   
+input{
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #068DA9;
+}
+#generate, #tweet{
+    padding: 10px 10px;
+    font-size: 15px;
+    border: 1px solid #068DA9;
+    border-radius: 5px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+#generate{
+    background-color: #068DA9;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: transparent;
+        color: #068DA9;
+    }
+}
+#quote-text{
+    max-width: 800px;
+    padding: 0 3rem;
+}
+#author{
+    text-align: right;
+    font-size: 20px;
+    margin: 1rem 0;
+}
