@@ -34,7 +34,7 @@ If you wish to contribute or modify the project:
 - HTML
 - CSS
 - JavaScript
-- Utilizes an external API for fetching quotes (link to the API: https://api-ninjas.com/api/quotes)
+- Utilizes an external API for fetching quotes (link to the API: https://api-ninjas.com/api/quotes )
 
 ## Credits
 
